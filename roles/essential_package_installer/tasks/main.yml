@@ -1,0 +1,12 @@
+---
+# tasks file for essential_package_installer
+- name: Install Essential Packages
+  package:
+    name:
+      "{{ package_list }}"
+    state: latest
+
+- name: Update packages
+  package:
+    name: *
+    state: latest

@@ -1,0 +1,6 @@
+---
+# vars file for essential_package_installer
+package_list:
+  - git
+  - docker
+  - httpd
